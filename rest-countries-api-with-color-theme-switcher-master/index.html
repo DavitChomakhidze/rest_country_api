@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <link href="queris.css" rel="stylesheet" />
+
+    <script defer src="script.js"></script>
+
+    <title>rea_countries</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div>
+        <span class="nav_text">Where in the world?</span>
+      </div>
+      <div>
+        <button class="dark_mode_button">
+          <ion-icon class="moon_icon" name="moon-outline"></ion-icon>
+          <span class="dark_mode_text">Dark Mode</span>
+        </button>
+      </div>
+    </nav>
+    <section class="main">
+      <div class="search_section">
+        <div class="search_bar">
+          <ion-icon class="search_icon" name="search-outline"></ion-icon>
+          <input
+            type="text"
+            class="search_txt"
+            value="Search for a country..."
+          />
+        </div>
+        <div class="filter_section">
+          <div class="clear_filter hidden">
+            <button class="clear_filter_button">Clear Filter</button>
+          </div>
+          <div class="filter_bar">
+            <div class="filter">
+              <button class="filter_button">Filter by Region</button>
+              <ion-icon
+                class="filter_icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <div class="regions hidden">
+              <ul class="region_ul">
+                <li class="region"><span class="region_txt">Africa</span></li>
+                <li class="region"><span class="region_txt">America</span></li>
+                <li class="region"><span class="region_txt">Asia</span></li>
+                <li class="region"><span class="region_txt">Europe</span></li>
+                <li class="region"><span class="region_txt">Oceania</span></li>
+                <li class="region"><span class="region_txt">Antarctic</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carts">
+        <!-- <div class="cart">
+          <img src="" />
+          <div>
+            <span class="cart_name">Germany</span>
+            <ul>
+              <li>
+                <span class="li_label">Population:</span>
+                <span class="li_value">81,770,900</span>
+              </li>
+              <li>
+                <span class="li_label">Region:</span>
+                <span class="li_value">Europe</span>
+              </li>
+              <li>
+                <span class="li_label">Capital:</span>
+                <span class="li_value">Berlin</span>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+      <div>
+
+        <!-- <button class="back">
+          <ion-icon name="arrow-back"></ion-icon>
+          <span>Back</span>
+        </button>
+        
+        <div class="main1">
+          <div class="detail_img_container">
+            <img class="detail_img" src="" />
+          </div>
+          <div class="info">
+            <span class="detail_name">Belgium</span>
+            <div class="detail_info">
+              <ul class="detail_ul">
+                <li>
+                  <span class="li_label">Native Name:</span>
+                  <span class="li_value">Belgie</span>
+                </li>
+                <li>
+                  <span class="li_label">Population:</span>
+                  <span class="li_value">81,770,900</span>
+                </li>
+                <li>
+                  <span class="li_label">Region:</span>
+                  <span class="li_value">Europe</span>
+                </li>
+                <li>
+                  <span class="li_label">Sub Region:</span>
+                  <span class="li_value">Western Europe</span>
+                </li>
+                <li>
+                  <span class="li_label">Capital:</span>
+                  <span class="li_value">Brussels</span>
+                </li>
+              </ul>
+              <ui class="detail_ul">
+                <li>
+                  <span class="li_label">Top Level Domain:</span>
+                  <span class="li_value">be</span>
+                </li>
+                <li>
+                  <span class="li_label">Curencies:</span>
+                  <span class="li_value">Euro</span>
+                </li>
+                <li>
+                  <span class="li_label">Languages:</span>
+                  <span class="li_value">Dutch,French,German</span>
+                </li>
+              </ui>
+            </div>
+            <div class="border_countries">
+              <span class="border_countries_txt li_label">Border Countries</span>
+              <button class="neighbor_button">France</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
