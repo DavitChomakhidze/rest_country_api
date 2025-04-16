@@ -1,6 +1,6 @@
-# TBC x USAID
+# FrontEnd Mentor Rest-countries-api
 
-This is a replica of the original website: https://www.tbcacademy.ge/usaid
+This is a Frontend Mentor challenge where I built a fully functional website from scratch using only the provided design and API. The goal of the project was to fetch and display country data using the REST Countries API, implementing features like search, filter by region, and dark/light theme toggle
 
 ## Tech Stack
 
@@ -11,21 +11,21 @@ This is a replica of the original website: https://www.tbcacademy.ge/usaid
 ## Project Structure
 
 - **`index.html`**: The single HTML file, with containers distinguished for mobile and desktop.
-- **`styles/`**
-  - **`queries.css`**: Handles responsive CSS 
-  - **`general.css`**: Contains general reusable classes
+- **`queries.css`**: Handles responsive CSS
   - **`styles.css`**: Manages styling for the desktop version.
 - **`script.js`**: Contains all JavaScript.
-- **`svg/`**: Contains all SVGs.
+- **`desighn/`**: Contains desighn JPGs.
 
 ## Getting Started
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/NikaPanchulidze/TBC-x-USAID
+   git clone https://github.com/DavitChomakhidze/rest_country_api
+   ```
 2. **Navigate to the Project Directory:**
    ```
-   cd TBC
+   cd rest-countries-api-with-color-theme-switcher-master
+   ```
 3. **Open `index.html` in a Web Browser:**
    - Double-click on the file.
 
@@ -33,9 +33,9 @@ This is a replica of the original website: https://www.tbcacademy.ge/usaid
 
 This website is made for all devices (Desktop to mobile)
 
-Mobile version starts from 1026px
+Mobile version starts from 375px
 
-There are only two structures as they are in official site.
+## ⚠️ **ATTENTION:**
 
-## ⚠️ **ATTENTION:** 
 When switching between the desktop and mobile versions, unexpected errors may occur. A simple refresh should resolve any issues.
+
