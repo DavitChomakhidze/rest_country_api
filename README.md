@@ -12,7 +12,7 @@ This is a Frontend Mentor challenge where I built a fully functional website fro
 
 - **`index.html`**: The single HTML file, with containers distinguished for mobile and desktop.
 - **`queries.css`**: Handles responsive CSS
-  - **`styles.css`**: Manages styling for the desktop version.
+- **`styles.css`**: Manages styling for the desktop version.
 - **`script.js`**: Contains all JavaScript.
 - **`desighn/`**: Contains desighn JPGs.
 
